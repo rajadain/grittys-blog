@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 
 import Layout from "../components/layout";
-// import HeroBlock from "../components/HeroBlock";
+import HeroBlock from "../components/HeroBlock";
 import PageBody from "../components/PageBody";
 
 import "./css/AboutPage.css";
@@ -12,7 +12,7 @@ class AboutPage extends Component {
   render() {
     return (
       <Layout location={this.props.location}>
-        {/* <HeroBlock /> */}
+        <HeroBlock />
         <PageBody>
           <div>
             <img className="AboutPage__avatar" src={avatar} />
